@@ -1,6 +1,6 @@
 {
   "vaultName": "Julian-hill.de",
-  "lastExport": 1745268732416,
+  "lastExport": 1745269394416,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon olive-cream-light olive-cream-dark is-fullscreen",
   "useCustomHeadContent": true,
@@ -50,7 +50,8 @@
     "lib/styles/other-plugins.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css",
-    "lib/styles/snippets.css"
+    "lib/styles/snippets.css",
+    "anhang/julian-gesicht-bleistift-skizze.jpg"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -87,7 +88,7 @@
   ],
   "fileInfo": {
     "Alle Notizen/Kintsugi (金継ぎ).md": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 3129,
       "exportedPath": "alle-notizen/kintsugi-(金継ぎ).html",
       "dependencies": [
@@ -95,7 +96,7 @@
       ]
     },
     "Alle Notizen/Meine Depression.md": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 49,
       "exportedPath": "alle-notizen/meine-depression.html",
       "dependencies": [
@@ -103,61 +104,61 @@
       ]
     },
     "Alle Notizen/Meine Persönlichkeit.md": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 426,
       "exportedPath": "alle-notizen/meine-persönlichkeit.html",
       "dependencies": []
     },
     "Anhang/De'Ignis Ergotherapie Karfreitag Kintsugi.jpg": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 498514,
       "exportedPath": "anhang/de'ignis-ergotherapie-karfreitag-kintsugi.jpg",
       "dependencies": []
     },
     "Anhang/Julian Gesicht Bleistift skizze.jpg": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 1550664,
       "exportedPath": "anhang/julian-gesicht-bleistift-skizze.jpg",
       "dependencies": []
     },
     "Anhang/Last und Licht.jpg": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 837716,
       "exportedPath": "anhang/last-und-licht.jpg",
       "dependencies": []
     },
     "Anhang/Node Logo.png": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 889524,
       "exportedPath": "anhang/node-logo.png",
       "dependencies": []
     },
     "Meta/Custom CSS.css": {
-      "modifiedTime": 1745268732416,
-      "sourceSize": 2267,
+      "modifiedTime": 1745269394416,
+      "sourceSize": 2266,
       "exportedPath": "meta/custom-css.css",
       "dependencies": []
     },
     "Meta/Custom Head.html": {
-      "modifiedTime": 1745268732416,
-      "sourceSize": 103,
+      "modifiedTime": 1745269394416,
+      "sourceSize": 114,
       "exportedPath": "meta/custom-head.html",
       "dependencies": []
     },
     "Meta/Custom Script.js": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 692,
       "exportedPath": "meta/custom-script.js",
       "dependencies": []
     },
     "Meta/Notiz Vorlage.md": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 46,
       "exportedPath": "meta/notiz-vorlage.html",
       "dependencies": []
     },
     "Startseite.md": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 3480,
       "exportedPath": "startseite.html",
       "dependencies": [
@@ -165,205 +166,205 @@
       ]
     },
     "lib/media/de'ignis-ergotherapie-karfreitag-kintsugi.jpg": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 498514,
       "exportedPath": "lib/media/de'ignis-ergotherapie-karfreitag-kintsugi.jpg",
       "dependencies": []
     },
     "lib/media/last-und-licht.jpg": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 837716,
       "exportedPath": "lib/media/last-und-licht.jpg",
       "dependencies": []
     },
     "anhang/julian-gesicht-bleistift-skizze.jpg": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 1550664,
       "exportedPath": "anhang/julian-gesicht-bleistift-skizze.jpg",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 6805,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 889524,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1745268732416,
-      "sourceSize": 103,
+      "modifiedTime": 1745269394416,
+      "sourceSize": 114,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 497,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 137466,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 42777,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 394,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1745268732416,
+      "modifiedTime": 1745269394416,
       "sourceSize": 2784,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
