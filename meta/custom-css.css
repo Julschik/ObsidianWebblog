@@ -1,6 +1,4 @@
-/* Custom CSS – Julian Edition */
-
-/* Einheitliche Linienbreite für SVG-Icons */
+/* === 1. SVGs stroke-width === */
 .sidebar-collapse-icon .svg-icon,
 .collapse-tree-button svg,
 .collapse-icon .svg-icon,
@@ -8,22 +6,14 @@
   stroke-width: 1 !important;
 }
 
-/* Sidebar-Rundungen links/rechts */
-.sidebar-left .sidebar-content {
-  border-top-right-radius: 2rem !important;
-  border-bottom-right-radius: 2rem !important;
-}
-.sidebar-right .sidebar-content {
-  border-top-left-radius: 2rem !important;
-  border-bottom-left-radius: 2rem !important;
-}
-
-/* Tree-Header: Button rechtsbündig, ohne Rahmen */
+/* === 2. Tree Header Layout === */
 .tree-header {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
+  padding: 0 8px !important;
 }
+
 .collapse-tree-button {
   border: none !important;
   background: transparent !important;
@@ -32,19 +22,33 @@
   cursor: pointer !important;
 }
 
-/* Suchfeld: Halbrunde Form, Text nicht vom Icon überdeckt */
-.search-input-container {
-  position: relative !important;
+.collapse-tree-button svg {
+  width: 24px !important;
+  height: 24px !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
+
+/* === 3. Suchfeld Styling === */
 .search-input-container input[type="search"] {
   border-radius: 9999px !important;
   padding: 6px 36px 6px 36px !important;
   border: 1px solid #ccc !important;
   outline: none !important;
 }
+
 .search-input-container input[type="search"]::placeholder {
   color: #888 !important;
 }
+
+.search-input-clear-button {
+  cursor: pointer !important;
+}
+
+.search-input-container {
+  position: relative !important;
+}
+
 .search-input-container::before {
   content: '' !important;
   position: absolute !important;
@@ -59,14 +63,27 @@
   pointer-events: none !important;
 }
 
-/* Fokusmodus bei Scroll: opacity reduzieren */
+/* === 4. Sidebar Rundungen === */
+.sidebar-left .sidebar-content {
+  border-top-right-radius: 2rem !important;
+  border-bottom-right-radius: 2rem !important;
+}
+
+.sidebar-right .sidebar-content {
+  border-top-left-radius: 2rem !important;
+  border-bottom-left-radius: 2rem !important;
+}
+
+/* === 5. Fokusmodus bei Scroll === */
 .sidebar-left,
 .sidebar-right {
   transition: opacity 0.4s ease-in-out !important;
 }
+
 .sidebar-faded {
   opacity: 0.6 !important;
 }
+
 .sidebar-left:hover,
 .sidebar-right:hover {
   opacity: 1 !important;
