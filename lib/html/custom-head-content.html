@@ -1,0 +1,63 @@
+<head>
+  <style>
+    /* Einheitliches stroke-width für alle relevanten SVGs */
+    .sidebar-collapse-icon .svg-icon,
+    .collapse-tree-button svg,
+    .collapse-icon .svg-icon,
+    .graph-icon svg {
+      stroke-width: 1 !important;
+    }
+
+    /* Tree-Header Layout */
+    .tree-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 8px;
+    }
+
+    .collapse-tree-button {
+      border: none;
+      background: transparent;
+      padding: 4px;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    .collapse-tree-button svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    /* Suchfeld mit halbrunden Enden */
+    .search-input-container input[type="search"] {
+      border-radius: 9999px;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+
+    .search-input-container input[type="search"]::placeholder {
+      content: "Suchen...";
+      color: #888;
+    }
+
+    .search-input-clear-button {
+      cursor: pointer;
+    }
+
+    /* Linke Sidebar: rechte Ecken abrunden */
+    .sidebar-left {
+      border-top-right-radius: 2rem;
+      border-bottom-right-radius: 2rem;
+      overflow: hidden;
+    }
+
+    /* Rechte Sidebar: linke Ecken abrunden */
+    .sidebar-right {
+      border-top-left-radius: 2rem;
+      border-bottom-left-radius: 2rem;
+      overflow: hidden;
+    }
+  </style>
+</head>
