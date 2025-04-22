@@ -200,15 +200,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "e16a743ed99431cf",
+        "id": "3afae4fe27b4ef40",
         "type": "window",
         "children": [
           {
-            "id": "4c30169a4c8d70f7",
+            "id": "d37b49f4c4e702ad",
             "type": "tabs",
             "children": [
               {
-                "id": "882f43b4f58f201f",
+                "id": "97ed456003e8442a",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -230,11 +230,11 @@
       }
     ]
   },
-  "active": "882f43b4f58f201f",
+  "active": "97ed456003e8442a",
   "lastOpenFiles": [
     "Startseite.md",
-    "Alle Notizen/Kintsugi (金継ぎ).md",
     "Alle Notizen/Meine Depression.md",
+    "Alle Notizen/Kintsugi (金継ぎ).md",
     "Alle Notizen/Meine Persönlichkeit.md",
     "Unbenannt.md",
     "Anhang/De'Ignis Ergotherapie Karfreitag Kintsugi.jpg",
