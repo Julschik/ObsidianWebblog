@@ -2,57 +2,92 @@
 _Est. 04/2025_
 
 <html lang="de">
+
 <div style="
+
 text-align: center;
-max-width: 600px;
+
+max-width: 100%;
+
 margin: 2em auto;
-font-family: 'Quicksand', sans-serif;">
-<div class="magnet-container" style="
-position: relative;
-display: inline-block;
-overflow: hidden;">
+
+font-family: 'Quicksand', sans-serif;
+
+position: relative;">
+
 <img
+
 src="Julian Gesicht Bleistift Skizze.jpg"
+
 alt="Julian Portrait"
+
 class="magnet-image"
+
 style="
+
 display: block;
+
 margin: 0 auto;
+
 padding: 2em;
+
 max-width: 300px;
+
 height: auto;
-background: radial-gradient(
-circle,
-rgba(255, 255, 255, 0.8),
-rgba(255, 255, 255, 0));
-mix-blend-mode: lighten;
+
+filter: drop-shadow(0px 0px 0px rgba(255, 255, 255));
+mix-blend-mode: normal;
+
 transition: transform 0.3s ease, opacity 0.3s ease;
+
 opacity: 0.8;"
+
 onmouseover="this.style.opacity='1'; this.style.transform='translate(0, 0)';"
+
 onmouseleave="this.style.opacity='0.8'; this.style.transform='translate(0, 0)';"
+
 />
-</div>
+
 <div style="
+
 font-size: 1.7em;
+
 font-style: italic;
+
 font-weight: bold;
+
 margin-top: 1em;">
+
 Ich schreibe,<br />weil Denken mir nicht genügt.
+
 </div>
+
 <script>
+
 const magnetImage = document.querySelector(".magnet-image");
-const magnetContainer = document.querySelector(".magnet-container");
-magnetContainer.addEventListener("mousemove", (e) => {
-const rect = magnetContainer.getBoundingClientRect();
+
+magnetImage.addEventListener("mousemove", (e) => {
+
+const rect = magnetImage.getBoundingClientRect();
+
 const x = e.clientX - rect.left - rect.width / 2;
+
 const y = e.clientY - rect.top - rect.height / 2;
+
 magnetImage.style.transform = `translate(${x * 0.1}px, ${y * 0.1}px)`;
+
 });
-magnetContainer.addEventListener("mouseleave", () => {
+
+magnetImage.addEventListener("mouseleave", () => {
+
 magnetImage.style.transform = "translate(0, 0)";
+
 });
+
 </script>
+
 </div>
+
 </html>
 
 
