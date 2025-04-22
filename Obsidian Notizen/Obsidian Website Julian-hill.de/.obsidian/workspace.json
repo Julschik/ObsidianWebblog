@@ -200,15 +200,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "57ce19dfc342dc35",
+        "id": "874df11d73c6df97",
         "type": "window",
         "children": [
           {
-            "id": "9228a58ba2b864d3",
+            "id": "59141752929fcc93",
             "type": "tabs",
             "children": [
               {
-                "id": "11e682d44c949687",
+                "id": "2f5c0bcc96cb4c15",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -230,7 +230,7 @@
       }
     ]
   },
-  "active": "11e682d44c949687",
+  "active": "2f5c0bcc96cb4c15",
   "lastOpenFiles": [
     "Startseite.md",
     "Alle Notizen/Kintsugi (金継ぎ).md",
