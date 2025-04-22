@@ -1,0 +1,215 @@
+@charset "UTF-8";
+/* Olive Cream Theme für Obsidian */
+/* Design: Julian Hill, Umsetzung: ChatGPT */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+/* @settings
+name: Olive Cream Theme
+id: olive-cream-theme
+settings:
+  - 
+    id: olive-cream-light
+    title: Light Mode (Creme + Olive)
+    type: class-toggle
+  -
+    id: olive-cream-dark
+    title: Dark Mode (AMOLED + Olive)
+    type: class-toggle
+*/
+
+/* ========== BASIS ========== */
+body {
+  font-family: 'Quicksand', sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.cm-s-obsidian {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* ========== LIGHTMODE ========== */
+.theme-light.olive-cream-light {
+  --background-primary: #fdfaf4;
+  --background-secondary: #f2f0eb;
+  --text-normal: #2c3b2c;
+  --text-muted: #4b5e4b;
+  --interactive-accent: #4c5d42; /* Olivegrün */
+  --interactive-accent-hover: #5e7253; /* Helleres Olivegrün */
+  --link-color: #4c5d42; /* Olivegrün */
+  --link-unresolved-color: #7e8f74; /* Abgeschwächtes Olivegrün */
+  --highlight-matched-text: #cfdac5;
+  --border-color: #c3c3b5;
+
+  --olive-accent: #4c5d42;
+  --olive-accent-light: #7e8f74;
+  --olive-accent-dark: #2c3b2c;
+
+  --sidebar-background: #ecebe6;
+  --sidebar-opacity: 0.7;
+  --sidebar-hover-opacity: 1;
+
+  /* Ergänzte Werte */
+  --blockquote-border-color: #4c5d42;
+  --text-selection: rgba(76, 93, 66, 0.25);
+  --tag-background: rgba(76, 93, 66, 0.2); /* Anpassung auf Olivegrün */
+  --tag-border-color: rgba(76, 93, 66, 0.15);
+  --nav-item-background-selected: rgba(76, 93, 66, 0.3); /* Transparenter Olivegrün-Hintergrund */
+  --icon-color-focused: #4c5d42; /* Olivegrün */
+}
+
+/* ========== DARKMODE ========== */
+.theme-dark.olive-cream-dark {
+  --background-primary: #000000;
+  --background-secondary: #11140d;
+  --text-normal: #fdfaf4;
+  --text-muted: #dad7ce;
+  --interactive-accent: #b4d79c; /* Olivegrün */
+  --interactive-accent-hover: #c4e4ac; /* Helleres Olivegrün */
+  --link-color: #b4d79c; /* Olivegrün */
+  --link-unresolved-color: #96b88e; /* Abgeschwächtes Olivegrün */
+  --highlight-matched-text: #2a2f25;
+  --border-color: #333333;
+
+  --olive-accent: #b4d79c;
+  --olive-accent-light: #d5edc0;
+  --olive-accent-dark: #11140d;
+
+  --sidebar-background: #1a1f18;
+  --sidebar-opacity: 0.7;
+  --sidebar-hover-opacity: 1;
+
+  /* Ergänzte Werte */
+  --blockquote-border-color: #b4d79c;
+  --text-selection: rgba(180, 215, 156, 0.25);
+  --tag-background: rgba(180, 215, 156, 0.2); /* Anpassung auf Olivegrün */
+  --tag-border-color: rgba(180, 215, 156, 0.15);
+  --nav-item-background-selected: rgba(180, 215, 156, 0.3); /* Transparenter Olivegrün-Hintergrund */
+  --icon-color-focused: #b4d79c; /* Olivegrün */
+}
+
+/* ========== SIDEBARS ========== */
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split {
+  background-color: var(--sidebar-background);
+  border-radius: 1rem;
+  opacity: var(--sidebar-opacity);
+  transition: opacity 0.3s ease;
+}
+
+.workspace-split.mod-left-split:hover,
+.workspace-split.mod-right-split:hover {
+  opacity: var(--sidebar-hover-opacity);
+}
+
+/* ========== MARKIERTE ELEMENTE (z. B. aktive Datei) ========== */
+.nav-file-title.is-active {
+  background-color: var(--interactive-accent);
+  color: var(--background-primary);
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+/* ========== LINKS + HOVEREFFEKTE ========== */
+a,
+.internal-link,
+.external-link {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover,
+.internal-link:hover,
+.external-link:hover {
+  transform: scale(1.02);
+  filter: brightness(1.2);
+}
+
+/* ========== SCROLLBARS ========== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 4px;
+}
+
+:hover::-webkit-scrollbar-thumb {
+  background: var(--link-color);
+}
+
+/* ========== CALLOUTS ========== */
+.callout {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: var(--background-secondary);
+  border: 1px solid var(--border-color);
+}
+
+/* ========== CODEBLOCKS ========== */
+pre, code {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 0.3em 0.6em;
+  font-family: monospace;
+}
+
+/* ========== AUFGABENLISTEN / CHECKBOXEN ========== */
+input[type="checkbox"] {
+  accent-color: var(--interactive-accent);
+  transform: scale(1.2);
+}
+
+/* ========== ZITATE ========== */
+.markdown-preview-view blockquote {
+  border-left: 4px solid var(--blockquote-border-color);
+  background-color: var(--background-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+/* ========== TABELLEN ========== */
+.markdown-preview-view table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.markdown-preview-view th,
+.markdown-preview-view td {
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+  text-align: left;
+  background-color: var(--background-secondary);
+}
+
+/* ========== ÜBERGÄNGE ALLGEMEIN ========== */
+body,
+button,
+a,
+.nav-file-title {
+  transition: all 0.2s ease-in-out;
+}
+
+/* ========== MENÜLEISTE ========== */
+/* Menüleiste standardmäßig ausgeblendet */
+.menu-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+  background-color: var(--background-primary);
+  z-index: 1000;
+}
+
+/* Menüleiste einblenden */
+.menu-bar.show {
+  transform: translateY(0);
+}
