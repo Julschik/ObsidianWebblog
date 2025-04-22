@@ -200,15 +200,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "f6effd760a3fde7d",
+        "id": "c7ee72dab44312a6",
         "type": "window",
         "children": [
           {
-            "id": "386b1a286fb96abe",
+            "id": "bfa5f7ef0a9e7c05",
             "type": "tabs",
             "children": [
               {
-                "id": "0a527f0a98f8367f",
+                "id": "df1094767f51de38",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -230,7 +230,7 @@
       }
     ]
   },
-  "active": "0a527f0a98f8367f",
+  "active": "df1094767f51de38",
   "lastOpenFiles": [
     "Startseite.md",
     "Meta/Notiz Vorlage.md",
