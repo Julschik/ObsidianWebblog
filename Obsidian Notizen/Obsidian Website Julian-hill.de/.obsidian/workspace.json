@@ -200,15 +200,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "3afae4fe27b4ef40",
+        "id": "e7ec30f16ac16c5b",
         "type": "window",
         "children": [
           {
-            "id": "d37b49f4c4e702ad",
+            "id": "2227dfaea7b48bf1",
             "type": "tabs",
             "children": [
               {
-                "id": "97ed456003e8442a",
+                "id": "b724d3c18e2535e8",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -230,7 +230,7 @@
       }
     ]
   },
-  "active": "97ed456003e8442a",
+  "active": "b724d3c18e2535e8",
   "lastOpenFiles": [
     "Startseite.md",
     "Alle Notizen/Meine Depression.md",

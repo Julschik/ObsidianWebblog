@@ -1,23 +1,23 @@
 # Willkommen in meinem digitalen Garten.
 _Est. 04/2025_
 
-`<div style="`
-  `text-align: center;`
-  `max-width: 300px;`
-  `margin: 2em auto;`
-`">`
-  `<div>`
-    `<img src="Julian Gesicht Bleistift Skizze.jpg" style="display: block; margin: 0 auto;">`
-  `</div>`
-  `<div style="`
-    `font-size: 1.7em;`
-    `font-style: italic;`
-    `font-weight: bold;`
-    `margin-top: 0.5em;`
-  `">`
-    `Ich schreibe,<br>weil Denken mir nicht genügt.`
-  `</div>`
-`</div>`
+<html>
+	<div style="
+		  text-align: center;
+		  max-width: 300px;
+		  margin: 2em auto;">
+		  <div>
+		    <img src="Julian Gesicht Bleistift Skizze.jpg" style="display: block; margin: 0 auto;">
+		  </div>
+		  <div style="
+		    font-size: 1.7em;
+		    font-style: italic;
+		    font-weight: bold;
+		    margin-top: 0.5em;">
+		    Ich schreibe,<br>weil Denken mir nicht genügt.
+		  </div>
+	</div>
+</html>
 
 Manchmal rauscht der Alltag so schnell vorbei, dass kaum Raum bleibt, das Wesentliche wahrzunehmen.  
 Dann halte ich inne – und schreibe. Nicht um sofort Lösungen zu finden, sondern um festzuhalten, was mir wirklich wichtig ist.
