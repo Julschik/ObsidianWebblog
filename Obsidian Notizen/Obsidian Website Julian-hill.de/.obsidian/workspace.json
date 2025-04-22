@@ -200,15 +200,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "874df11d73c6df97",
+        "id": "6310e5dd9e1e79b3",
         "type": "window",
         "children": [
           {
-            "id": "59141752929fcc93",
+            "id": "c51dc67d3322b9f2",
             "type": "tabs",
             "children": [
               {
-                "id": "2f5c0bcc96cb4c15",
+                "id": "7c7ab13c33aa2241",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -230,11 +230,11 @@
       }
     ]
   },
-  "active": "2f5c0bcc96cb4c15",
+  "active": "7c7ab13c33aa2241",
   "lastOpenFiles": [
     "Startseite.md",
-    "Alle Notizen/Kintsugi (金継ぎ).md",
     "Bleistiftportrait.html",
+    "Alle Notizen/Kintsugi (金継ぎ).md",
     "Meta/Quicksand-SemiBold.ttf",
     "Alle Notizen/Meine Depression.md",
     "Alle Notizen/Meine Persönlichkeit.md",

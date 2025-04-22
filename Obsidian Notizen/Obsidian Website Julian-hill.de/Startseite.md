@@ -1,53 +1,7 @@
 # Willkommen in meinem digitalen Garten.
 _Est. 04/2025_
 
-<html lang="de">
-	<div 
-		style="
-		text-align: center;
-		max-width: 100%;
-		margin: 2em auto;
-		font-family: 'Quicksand', sans-serif;
-		position: relative;">
-		<img
-			src="Julian Gesicht Bleistift Skizze.jpg"
-			alt="Julian Portrait"
-			class="magnet-image"
-			style="
-			display: block;
-			margin: 0 auto;
-			padding: 2em;
-			max-width: 300px;
-			height: auto;
-			filter: drop-shadow(0px 0px 0px rgba(255, 255, 255));
-			mix-blend-mode: normal;
-			transition: transform 0.3s ease, opacity 0.3s ease;
-			opacity: 0.8;"
-			onmouseover="this.style.opacity='1'; this.style.transform='translate(0, 0)';"
-			onmouseleave="this.style.opacity='0.8'; this.style.transform='translate(0, 0)';"/>
-		<div 
-			style="
-			font-size: 1.7em;
-			font-style: italic;
-			font-weight: bold;
-			margin-top: 1em;">
-			Ich schreibe,<br />weil Denken mir nicht genügt.
-		</div>
-		<script>
-			const magnetImage = document.querySelector(".magnet-image");
-			magnetImage.addEventListener("mousemove", (e) => {
-			const rect = magnetImage.getBoundingClientRect();
-			const x = e.clientX - rect.left - rect.width / 2;
-			const y = e.clientY - rect.top - rect.height / 2;
-			magnetImage.style.transform = `translate(${x * 0.1}px, ${y * 0.1}px)`;
-			});
-			magnetImage.addEventListener("mouseleave", () => {
-			magnetImage.style.transform = "translate(0, 0)";
-			});
-		</script>
-	</div>
-</html>
-
+<html lang="de"><div style="text-align: center; max-width: 100%; margin: 2em auto; font-family: 'Quicksand', sans-serif; position: relative;"><img src="Julian Gesicht Bleistift Skizze.jpg" alt="Julian Portrait" class="magnet-image" style="display: block; margin: 0 auto; padding: 2em; max-width: 300px; height: auto; filter: drop-shadow(0px 0px 0px rgba(255, 255, 255)); mix-blend-mode: normal; transition: transform 0.3s ease, opacity 0.3s ease; opacity: 0.7;" /><div style="font-size: 1.7em; font-style: italic; font-weight: bold; margin-top: 1em; position: relative;"><span class="marker-text" style="background-image: linear-gradient(0, #88ab46, #88ab46); background-position: 0 bottom; background-size: 100% .5em; background-repeat: no-repeat; transition: background-size 0.3s ease;">Ich schreibe,<br />weil Denken mir nicht genügt.</span></div><script>const magnetImage = document.querySelector(".magnet-image"); const centerX = window.innerWidth / 2; const centerY = window.innerHeight / 2; document.addEventListener("mousemove", (e) => { const x = e.clientX - centerX; const y = e.clientY - centerY; magnetImage.style.transform = `translate(${x * 0.02}px, ${y * 0.02}px)`; }); window.addEventListener("load", () => { magnetImage.style.opacity = "1"; magnetImage.style.transform = "scale(1.05)"; setTimeout(() => { magnetImage.style.opacity = "0.7"; magnetImage.style.transform = ""; }, 1000); }); magnetImage.addEventListener("mouseover", () => { magnetImage.style.opacity = "1"; magnetImage.style.transform += " scale(1.05)"; }); magnetImage.addEventListener("mouseleave", () => { magnetImage.style.opacity = "0.7"; magnetImage.style.transform = magnetImage.style.transform.replace(" scale(1.05)", ""); }); const markerText = document.querySelector(".marker-text"); const darkThemeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)"); const updateMarkerColor = () => { markerText.style.backgroundImage = darkThemeMediaQuery.matches ? "linear-gradient(0, #556B2F, #556B2F)" : "linear-gradient(0, #88ab46, #88ab46)"; }; darkThemeMediaQuery.addEventListener("change", updateMarkerColor); updateMarkerColor();</script></div></div></html>
 
 Manchmal rauscht der Alltag so schnell vorbei, dass kaum Raum bleibt, das Wesentliche wahrzunehmen.  
 Dann halte ich inne – und schreibe. Nicht um sofort Lösungen zu finden, sondern um festzuhalten, was mir wirklich wichtig ist.
