@@ -2,11 +2,11 @@
   "settingsVersion": "1.8.01",
   "makeOfflineCompatible": false,
   "inlineAssets": false,
-  "includePluginCSS": "image-converter\nwebpage-html-export-julian",
+  "includePluginCSS": "",
   "includeSvelteCSS": true,
   "titleProperty": "title",
-  "customHeadContentPath": "/Users/julianhill/Documents/GitHub/ObsidianWebblog/custom/customhead.html",
-  "faviconPath": "",
+  "customHeadContentPath": "",
+  "faviconPath": "/Users/julianhill/Documents/GitHub/ObsidianWebblog/Obsidian Notizen/Obsidian Website Julian-hill.de/Anhang/Node Logo.png",
   "documentWidth": "40em",
   "sidebarWidth": "20em",
   "minOutlineCollapse": 2,
@@ -15,11 +15,11 @@
   "allowFoldingLists": true,
   "allowResizingSidebars": true,
   "logLevel": "warning",
-  "minifyHTML": false,
+  "minifyHTML": true,
   "makeNamesWebStyle": true,
-  "onlyExportModified": false,
+  "onlyExportModified": true,
   "deleteOldFiles": true,
-  "addThemeToggle": false,
+  "addThemeToggle": true,
   "addOutline": true,
   "addFileNav": true,
   "addSearchBar": true,
@@ -46,7 +46,7 @@
   "exportPath": "/Users/julianhill/Documents/GitHub/ObsidianWebblog",
   "filesToExport": [
     [
-      "Anhang",
+      "Alle Notizen",
       "Startseite.md"
     ]
   ]

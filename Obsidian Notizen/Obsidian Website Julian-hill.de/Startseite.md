@@ -1,15 +1,20 @@
 # Willkommen in meinem digitalen Garten.
 _Est. 04/2025_
 
-<div style="text-align: center; margin-top: 2em; position: relative;">
-  <div class="magnet-wrapper" id="magnetWrapper">
-    <img 
-      src="Julian Gesicht Bleistift Skizze.jpg" 
-      alt="Julian Gesicht Bleistiftskizze"
-      id="magnetImage"
-    >
+<div style="
+  text-align: center;
+  max-width: 300px;
+  margin: 2em auto;
+">
+  <div>
+    <img src="Julian Gesicht Bleistift Skizze.jpg" style="display: block; margin: 0 auto;">
   </div>
-  <div class="slogan">
+  <div style="
+    font-size: 1.7em;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0.5em;
+  ">
     Ich schreibe,<br>weil Denken mir nicht genügt.
   </div>
 </div>

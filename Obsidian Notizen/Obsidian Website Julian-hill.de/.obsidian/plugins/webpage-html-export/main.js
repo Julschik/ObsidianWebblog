@@ -66569,58 +66569,36 @@ var Webpage = class extends Downloadable {
     }
     this.sizerElement.prepend(titleEl);
   }
-        async addHead() {
-        if (!this.document) return;
-    
-        let rootPath = this.pathToRoot.copy.makeWebStyle(this.exportOptions.webStylePaths).asString;
-        let description = this.description || this.exportOptions.siteName + " - " + this.titleInfo.title;
-        let headContent = `
-            <title>${this.titleInfo.title}</title>
-            <base href="${rootPath}/">
-            <meta id="root-path" root-path="${rootPath}/">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
-            <meta charset="UTF-8">
-            <meta name="description" content="${description}">
-            <meta property="og:title" content="${this.titleInfo.title}">
-            <meta property="og:description" content="${description}">
-            <meta property="og:type" content="website">
-            <meta property="og:url" content="${this.fullURL}">
-            <meta property="og:image" content="${this.metadataImageURL}">
-            <meta property="og:site_name" content="${this.exportOptions.siteName}">
-        `;
-    
-        if (this.author && this.author !== "") {
-            headContent += `<meta name="author" content="${this.author}">`;
-        }
-    
-        // Inhalt der Custom-Head-Datei direkt einfügen
-        if (this.exportOptions.customHeadContentPath) {
-            const fs = require('fs');
-            const path = this.exportOptions.customHeadContentPath;
-            if (fs.existsSync(path)) {
-            try {
-              const customHeadContent = fs.readFileSync(path, 'utf8');
-              headContent += `\n<!-- Custom Head Content -->\n${customHeadContent}`;
-            } catch (error) {
-              console.warn("Fehler beim Laden der Custom Head-Datei:", error);
-            }
-            } else {
-            console.warn("Custom Head-Datei existiert nicht:", path);
-            }
-        }
-    
-        if (this.exportOptions.addRSS) {
-            const Path = require('path'); // Sicherstellen, dass Path importiert wird
-            const rssURL = Path.join(this.exportOptions.siteURL ?? "", this.website?.rssPath ?? "").replace(/\\/g, '/');
-            headContent += `<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="${rssURL}">`;
-        }
-    
-        // Standard-Assets einfügen
-        headContent += AssetHandler.getHeadReferences(this.exportOptions);
-    
-        // Den generierten Head-Inhalt in das Dokument einfügen
-        this.document.head.innerHTML = headContent;
+  async addHead() {
+    var _a2, _b, _c;
+    if (!this.document)
+      return;
+    let rootPath = this.pathToRoot.copy.makeWebStyle(this.exportOptions.webStylePaths).asString;
+    let description = this.description || this.exportOptions.siteName + " - " + this.titleInfo.title;
+    let head = `
+		<title>${this.titleInfo.title}</title>
+		<base href="${rootPath}/">
+		<meta id="root-path" root-path="${rootPath}/">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="${description}">
+		<meta property="og:title" content="${this.titleInfo.title}">
+		<meta property="og:description" content="${description}">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="${this.fullURL}">
+		<meta property="og:image" content="${this.metadataImageURL}">
+		<meta property="og:site_name" content="${this.exportOptions.siteName}">
+		`;
+    if (this.author && this.author != "") {
+      head += `<meta name="author" content="${this.author}">`;
     }
+    if (this.exportOptions.addRSS) {
+      let rssURL = Path.joinStrings((_a2 = this.exportOptions.siteURL) != null ? _a2 : "", (_c = (_b = this.website) == null ? void 0 : _b.rssPath) != null ? _c : "").makeUnixStyle().asString;
+      head += `<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="${rssURL}">`;
+    }
+    head += AssetHandler.getHeadReferences(this.exportOptions);
+    this.document.head.innerHTML = head;
+  }
   convertLinks() {
     if (!this.document)
       return;
