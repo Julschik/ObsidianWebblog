@@ -200,25 +200,21 @@
     "type": "floating",
     "children": [
       {
-        "id": "1b1e8953d3e1d97a",
+        "id": "f6effd760a3fde7d",
         "type": "window",
         "children": [
           {
-            "id": "499eda470ce4bea7",
+            "id": "386b1a286fb96abe",
             "type": "tabs",
             "children": [
               {
-                "id": "af53a9310d45a42d",
+                "id": "0a527f0a98f8367f",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Startseite.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "Startseite"
+                  "title": "Neuer Tab"
                 }
               }
             ]
@@ -234,13 +230,13 @@
       }
     ]
   },
-  "active": "af53a9310d45a42d",
+  "active": "0a527f0a98f8367f",
   "lastOpenFiles": [
+    "Startseite.md",
     "Meta/Notiz Vorlage.md",
     "Alle Notizen/Meine Persönlichkeit.md",
     "Alle Notizen/Meine Depression.md",
     "Alle Notizen/Kintsugi (金継ぎ).md",
-    "Startseite.md",
     "Meta/custom-head.html",
     "Meta/Startseite/styles.css",
     "Meta/Startseite/scripts.js",
