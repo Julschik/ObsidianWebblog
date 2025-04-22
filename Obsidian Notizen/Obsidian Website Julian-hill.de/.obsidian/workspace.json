@@ -200,15 +200,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "e7ec30f16ac16c5b",
+        "id": "6ecdc78707098bf3",
         "type": "window",
         "children": [
           {
-            "id": "2227dfaea7b48bf1",
+            "id": "8b02609f7f3b98d9",
             "type": "tabs",
             "children": [
               {
-                "id": "b724d3c18e2535e8",
+                "id": "131df336b115e618",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -230,9 +230,11 @@
       }
     ]
   },
-  "active": "b724d3c18e2535e8",
+  "active": "131df336b115e618",
   "lastOpenFiles": [
     "Startseite.md",
+    "Bleistiftportrait.html",
+    "Meta/Quicksand-SemiBold.ttf",
     "Alle Notizen/Meine Depression.md",
     "Alle Notizen/Kintsugi (金継ぎ).md",
     "Alle Notizen/Meine Persönlichkeit.md",
@@ -258,11 +260,9 @@
     "Anhang/ChatGPT Image 21. Apr. 2025, 20_59_24.png",
     "Anhang/Julian Gesicht Bleistift skizze.webp",
     "Anhang/Last und Licht.webp",
-    "Alle Notizen",
     "Anhang/ChatGPT Image 20. Apr. 2025, 20_26_26.png",
     "Anhang/Julian Gesicht Bleistift skizze.svg",
     "Untitled.md",
-    "Meta",
     "dritten Link.md",
     "Testseite.md",
     "vorhandener Link.md",

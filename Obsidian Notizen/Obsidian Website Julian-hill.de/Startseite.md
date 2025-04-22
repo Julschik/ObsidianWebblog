@@ -1,23 +1,60 @@
 # Willkommen in meinem digitalen Garten.
 _Est. 04/2025_
 
-<html>
-	<div style="
-		  text-align: center;
-		  max-width: 300px;
-		  margin: 2em auto;">
-		  <div>
-		    <img src="Julian Gesicht Bleistift Skizze.jpg" style="display: block; margin: 0 auto;">
-		  </div>
-		  <div style="
-		    font-size: 1.7em;
-		    font-style: italic;
-		    font-weight: bold;
-		    margin-top: 0.5em;">
-		    Ich schreibe,<br>weil Denken mir nicht genügt.
-		  </div>
-	</div>
+<html lang="de">
+<div style="
+text-align: center;
+max-width: 600px;
+margin: 2em auto;
+font-family: 'Quicksand', sans-serif;">
+<div class="magnet-container" style="
+position: relative;
+display: inline-block;
+overflow: hidden;">
+<img
+src="Julian Gesicht Bleistift Skizze.jpg"
+alt="Julian Portrait"
+class="magnet-image"
+style="
+display: block;
+margin: 0 auto;
+padding: 2em;
+max-width: 300px;
+height: auto;
+background: radial-gradient(
+circle,
+rgba(255, 255, 255, 0.8),
+rgba(255, 255, 255, 0));
+mix-blend-mode: lighten;
+transition: transform 0.3s ease, opacity 0.3s ease;
+opacity: 0.8;"
+onmouseover="this.style.opacity='1'; this.style.transform='translate(0, 0)';"
+onmouseleave="this.style.opacity='0.8'; this.style.transform='translate(0, 0)';"
+/>
+</div>
+<div style="
+font-size: 1.7em;
+font-style: italic;
+font-weight: bold;
+margin-top: 1em;">
+Ich schreibe,<br />weil Denken mir nicht genügt.
+</div>
+<script>
+const magnetImage = document.querySelector(".magnet-image");
+const magnetContainer = document.querySelector(".magnet-container");
+magnetContainer.addEventListener("mousemove", (e) => {
+const rect = magnetContainer.getBoundingClientRect();
+const x = e.clientX - rect.left - rect.width / 2;
+const y = e.clientY - rect.top - rect.height / 2;
+magnetImage.style.transform = `translate(${x * 0.1}px, ${y * 0.1}px)`;
+});
+magnetContainer.addEventListener("mouseleave", () => {
+magnetImage.style.transform = "translate(0, 0)";
+});
+</script>
+</div>
 </html>
+
 
 Manchmal rauscht der Alltag so schnell vorbei, dass kaum Raum bleibt, das Wesentliche wahrzunehmen.  
 Dann halte ich inne – und schreibe. Nicht um sofort Lösungen zu finden, sondern um festzuhalten, was mir wirklich wichtig ist.
